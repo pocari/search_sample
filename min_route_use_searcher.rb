@@ -53,7 +53,7 @@ class MinRouteSearcher < Searcher
 end
 
 
-# 下記のような経路の0〜6までの最短経路を探す
+# 下記のような経路の0〜7までの最短経路を探す
 #            0
 #           /|\
 #          / | \
