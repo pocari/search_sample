@@ -24,7 +24,7 @@ class Searcher
 
     solved = false
     until @data.empty?
-      state = @data.pop
+      state = @data.get
 
       if solved?(state)
         solved = true

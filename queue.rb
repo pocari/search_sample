@@ -9,10 +9,12 @@ class Queue
     end
   end
 
-  def pop
+  def shift
     # 最初にいれたやつを取り出す
     @data.shift
   end
+
+  alias get shift
 
   def empty?
     @data.empty?

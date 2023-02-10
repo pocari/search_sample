@@ -13,6 +13,7 @@ class Stack
     # 最後にいれたやつを取り出す
     @data.pop
   end
+  alias get pop
 
   def empty?
     @data.empty?
