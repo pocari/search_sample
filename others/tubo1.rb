@@ -1,8 +1,7 @@
 require 'set'
 
-require_relative './searcher'
-require_relative './stack'
-require_relative './queue'
+require_relative '../searcher'
+require_relative '../queue'
 
 class Tubo < Searcher
   attr_reader :results
