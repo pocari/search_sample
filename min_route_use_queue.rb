@@ -14,7 +14,7 @@ def min_route(graph, start, goal)
   visited.add(start)
 
   until data.empty?
-    state = data.shift
+    state = data.get
     cur, _ = state
     if cur == goal
       return state
