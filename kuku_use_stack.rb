@@ -7,7 +7,7 @@ def kuku_use_stack
   data.push([])
 
   until data.empty?
-    acc = data.pop
+    acc = data.get
     if acc.size == 2
       results << acc
     else

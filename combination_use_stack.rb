@@ -10,7 +10,7 @@ def combination(ary, size)
   ])
 
   until data.empty?
-    acc, useable_ary = data.pop
+    acc, useable_ary = data.get
     if acc.size == size
       results << acc
     else
